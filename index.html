@@ -8,25 +8,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container-fluid" style="display: flex; flex-direction: column; align-items: center;">
-        <h2> Pick-a-number Game</h2>
-        <input class="m" type="number" placeholder="Guess a number" id="input">
-    </div>
-    <div class="container-fluid" style="display: flex; flex-direction: column; align-items: center;">
-        <button onclick=" check() " id="btn" type="button" class="btn btn-danger btn-lg btn-block ">Guess</button>
-        <button onclick=" reset() " id="btn-reset" type="button" class="btn btn-secondary btn-lg btn-block">Reset</button>    
-    </div>
-    <div class="container" style="height: 100px; background-color: black; color: chartreuse;text-align:center;margin-bottom: 40px;">
-        <p id="beta"></p>
-        <span id="beta-sen"></span>
-    </div>
-    <div class="container" style="height: 200px; background-color: black; color: chartreuse;text-align:center;align-self: center">
-        <p id="demo-sen"></p>
-        <span>History:</span>
-        <span id="demo"></span>
-        <h1 id="title"></h1>
+    <div class='container meo'>
+        <div class="container-fluid" style="display: flex; flex-direction: column; align-items: center;">
+                <h2> Pick-a-number Game</h2>
+                <input class="m" type="number" placeholder="Guess a number" id="input">
+            </div>
+            <div class="container-fluid" style="display: flex; flex-direction: column; align-items: center;">
+                <button onclick=" check() " id="btn" type="button" class="btn btn-danger btn-lg btn-block ">Guess</button>
+                <button onclick=" reset() " id="btn-reset" type="button" class="btn btn-secondary btn-lg btn-block">Reset</button>    
+            </div>
+            <div class="container" style="height: 100px; background-color: black; color: chartreuse;text-align:center;margin-bottom: 40px;">
+                <p id="beta"></p>
+                <span id="beta-sen"></span>
+            </div>
+            <div class="container" style="height: 200px; background-color: black; color: chartreuse;text-align:center;align-self: center">
+                <p id="demo-sen"></p>
+                <span>History:</span>
+                <span id="demo"></span>
+                <h1 id="title"></h1>
 
+            </div>
     </div>
+    
     <script src="index.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

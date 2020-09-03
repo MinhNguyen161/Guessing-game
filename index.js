@@ -76,7 +76,7 @@ function reset(){
   amount.value =""
   history=[]
   document.getElementById("demo").innerHTML = ""
-  document.getElementById("demo-sen").innerHTML = "You have been granted another chance by the Reset-btn :D"
+  document.getElementById("demo-sen").innerHTML = "You have been given another chance"
   document.getElementById("beta").innerHTML = ""
   document.getElementById("beta-sen").innerHTML = ""
   document.getElementById("title").innerHTML = ""
